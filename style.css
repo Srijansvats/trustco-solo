@@ -1,0 +1,86 @@
+/* Global Styles */
+:root {
+    --primary-color: #1d4ed8;
+    --secondary-color: #f3f4f6;
+    --accent-color: #111827;
+    --text-color: #374151;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: white;
+    padding: 0 64px;
+  }
+
+  img {
+    max-width: 100%; /* Makes images responsive */
+    height: auto;
+    display: block;
+  }
+  
+  button {
+    cursor: pointer; /* Show pointer cursor on buttons */
+    font-family: inherit; /* Ensure buttons inherit font */
+  }
+  
+  input, button, textarea, select {
+    font: inherit; /* Consistent typography for form elements */
+  }
+  
+  /* Remove outline on buttons/links but keep focus visible */
+  a, button {
+    outline: none;
+  }
+  
+  a:focus, button:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+  }
+  
+  /* Consistent spacing below sections */
+  section {
+    margin-bottom: 60px;
+  }
+  
+  
+  /* Typography */
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--accent-color);
+    line-height: 1.3;
+  }
+  
+  h1 {
+    font-size: 4rem;
+  }
+  
+  h2 {
+    font-size: 3rem;
+  }
+  
+  h3 {
+    font-size: 2rem;
+  }
+  
+  p {
+    font-size: 1.5rem;
+    margin: 12px 0;
+  }
+  
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  
