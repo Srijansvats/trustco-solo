@@ -6,73 +6,90 @@
     <title>Landing Page Title</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="font-sans">
+<body >
     <!-- header  -->
-    <header class="p-6 flex justify-between items-center shadow-md">
+    <header class="navbar" >
         <img src="web assets/logo.png" alt="" style="height: 24px; width:158.65px;">
-        <nav>
-            <ul class="flex space-x-6">
-                <li><a href="#" class="text-gray-700">Features</a></li>
-                <li><a href="#" class="text-gray-700">Services</a></li>
-                <li><a href="#" class="text-gray-700">Company</a></li>
-                <li><a href="#" class="text-gray-700">Resources</a></li>
-                <li><a href="#" class="text-gray-700">Contact</a></li>
-            </ul>
+        <nav class="nav-links">
+                <a href="#" >Features</a>
+                <a href="#" >Services</a>
+                <a href="#" >Company</a>
+               <a href="#" >Resources</a>
+                <a href="#" >Contact</a>
         </nav>
-        <div>
-            <button class="mr-4 text-gray-700">Login</button>
-            <button class="bg-blue-600 text-white px-4 py-2 rounded">Sign Up</button>
+        <div class="auth-buttons">
+            <button class="login-btn">Login</button>
+            <button class="signup-btn">Sign Up</button>
         </div>
     </header>
     <!-- header end  -->
 
-    <!-- frame 3  -->
+    <!-- Hero  -->
+    <section class="hero">
+        <div>
     <img src="web assets/hero1.png" alt="" style="width: 197.4193572998047; height:340px;">
-    <section class="text-center py-16 bg-gray-100">
-        <h1 class="text-4xl font-bold">Find a High-Potential Customers with Trustco.</h1>
-        <p class="text-gray-600 mt-4">We provide sales teams and professionals with the knowledge, skill and discipline they need to be 10x more successful.</p>
-        <div class="mt-6">
-            <button class="bg-blue-600 text-white px-6 py-3 rounded mr-4">Get Started</button>
-            <button class="border border-gray-400 px-6 py-3 rounded">Check Our Video</button>
+</div>
+<div>
+        <h1 >Find a High-Potential <br> Customers with Trustco.</h1>
+        <p >We provide sales teams and professionals with the knowledge, skill and <br> discipline they need to be 10x more successful.</p>
+    
+        <div class="hero-buttons">
+            <button  class="primary-btn">Get Started</button>
+            <button class="secondary-btn" style="display: flex; flex-direction:row;" > <img src="web assets/Play.png" alt=""> Check Our Video</button>
         </div>
+    </div>
+    <div>
         <img src="web assets/hero2.png" alt="" style="width: 212.0430145263672; height:340px;">
+    </div>
     </section>
-    <!-- frame 3 end  -->
+    <!-- Hero end  -->
 
     <!-- client brand section  -->
-    <section class="text-center py-10">
-        <p class="text-gray-500">Trusted by the best in the world</p>
-        <div class="flex justify-center space-x-10 mt-4">
-            <img src="web assets/Google.png" alt="">
-            <img src="web assets/Atlassian.png" alt="">
-            <img src="web assets/Canon.png" alt="">
-            <img src="web assets/Walmart.png" alt="">
-            <img src="web assets/Amazon.png" alt="">
+    <section class="trusted-by">
+        <h4 style="width: 266.39349365234375;
+        height: 24;
+        " >Trusted by the best in the world</h4>
+        <div class="brands" >
+            <img style="width: 97.21135711669922;
+            height: 32;
+            " src="web assets/Google.png" alt="">
+            <img style="width: 135.8800048828125;
+            height: 17.200000762939453;
+            " src="web assets/Atlassian.png" alt="">
+            <img style="width: 95.62515258789062;
+            height: 20;
+            " src="web assets/Canon.png" alt="">
+            <img style="width: 129.86000061035156;
+            height: 30.96000099182129;
+            " src="web assets/Walmart.png" alt="">
+            <img style="width: 95.02999877929688;
+            height: 29.239999771118164;
+            " src="web assets/Amazon.png" alt="">
 
         </div>
     </section>
     <!-- section end  -->
     
-    <section class="bg-blue-900 text-white py-16 text-center">
-        <h2 class="text-3xl font-bold">High-Level Sales Teams & Professionals</h2>
-        <p class="mt-4 max-w-3xl mx-auto">Circuit is flexible and affordable and offers you exceptional support to achieve your career goals. Circuit is a Global training provider based across the UK that specialises.</p>
+    <section >
+        <h2 >High-Level Sales Teams & Professionals</h2>
+        <p >Circuit is flexible and affordable and offers you exceptional support to achieve your career goals. Circuit is a Global training provider based across the UK that specialises.</p>
         <img src="web assets/Video.png" alt="">
     </section>
     
-    <section class="py-16 px-10">
-        <h2 class="text-2xl font-bold text-center">Beneficial Elements</h2>
+    <section >
+        <h2 >Beneficial Elements</h2>
         <p>An awesome & poweful tools for your business, increase business revenue</p>
         <div>
-            <div class="p-6 shadow rounded bg-white">
-                <h3 class="font-bold">Happy Customers</h3>
+            <div >
+                <h3 >Happy Customers</h3>
                 <p>Productive agents are happy agents. Give them all the support tools and information they need to best serve your customers.</p>
             </div>
-            <div class="p-6 shadow rounded bg-white">
-                <h3 class="font-bold">Best Integrations</h3>
+            <div >
+                <h3 >Best Integrations</h3>
                 <p>Our software is powerful enough to handle the most complex business, yet flexible enough to scale with you as you grow.</p>
             </div>
-            <div class="p-6 shadow rounded bg-white">
-                <h3 class="font-bold">Grow Without Problems</h3>
+            <div >
+                <h3 >Grow Without Problems</h3>
                 <p>with evaluating in depth variety of data sets and including the speed of tech adaptation we can build bridges between any companies and their customers.</p>
             </div>
         </div>
@@ -142,10 +159,10 @@
 
 
     <!-- founders section  -->
-    <section class="py-16 text-center">
+    <section >
         <div>
-        <h2 class="text-2xl font-bold">Meet Our Founder</h2>
-        <p class="mt-4 max-w-xl mx-auto">“I think you're better off finding the money to hire someone than actually find a co-founder. The main reason? You probably won't find someone as passionate as you are about the organization you're building. And keep in mind, I have no clue who you are or what you're building so that's no judgment on you or the idea, just the reality I've observed over 20 years of startups.”</p>
+        <h2 >Meet Our Founder</h2>
+        <p >“I think you're better off finding the money to hire someone than actually find a co-founder. The main reason? You probably won't find someone as passionate as you are about the organization you're building. And keep in mind, I have no clue who you are or what you're building so that's no judgment on you or the idea, just the reality I've observed over 20 years of startups.”</p>
         <h3>Jason Hound</h3>
         <p>Founder of Trustco.</p>
         <button >see team Behind our success</button>
@@ -158,25 +175,25 @@
 
     <!-- left image section  -->
     
-    <section class="bg-gray-100 py-16 text-center">
+    <section >
         <img src="web assets/Left Image.png" alt="">
-        <h2 class="text-2xl font-bold">Building bridges between companies and customers</h2>
+        <h2 >Building bridges between companies and customers</h2>
         <p>with evaluating in depth variety of data sets and including the speed of tech adaptation we can build birdges between any companies and their customers.</p>
-        <button class="bg-blue-600 text-white px-6 py-3 rounded mt-4">View Reports</button>
+        <button>View Reports</button>
     </section>
     <!-- end section  -->
 
     <!-- testimonial section  -->
-    <section class="py-16 text-center">
-        <h2 class="text-2xl font-bold">We Believe people we trust</h2>
+    <section >
+        <h2 >We Believe people we trust</h2>
         <button>see all</button>
-        <div class="mt-6 flex justify-center space-x-6">
+        <div >
             <img src="web assets/“.png" alt="">
-            <blockquote class="max-w-sm p-6 bg-gray-200 rounded">I'm totally unconvinced that two people can find a person they haven't known previously, and become an effective co-founder</blockquote>
+            <blockquote >I'm totally unconvinced that two people can find a person they haven't known previously, and become an effective co-founder</blockquote>
             <img src="web assets/Person1.png" alt=""><br>
 
             <img src="web assets/“.png" alt="">
-            <blockquote class="max-w-sm p-6 bg-gray-200 rounded">Easy to use, reasonably priced, and ensures I don’t drop the ball on following up with my leads!</blockquote>
+            <blockquote >Easy to use, reasonably priced, and ensures I don’t drop the ball on following up with my leads!</blockquote>
             <img src="web assets/Person2.png" alt="">
         
         </div>
@@ -184,19 +201,19 @@
     <!-- section end -->
 
     <!-- blog section  -->
-    <section class="py-16 text-center">
-        <h2 class="text-2xl font-bold">What's new on Trustco.?</h2>
+    <section >
+        <h2 >What's new on Trustco.?</h2>
         <button>see all</button>
-        <div class="grid grid-cols-3 gap-6 mt-6 px-10">
+        <div >
             
-            <div class="p-6 shadow bg-white rounded">
+            <div >
                 <img src="web assets/Photo 1.png" alt="" ><p>23 Nov 2022, by Amanda Hugh</p>
                 <h1>What Makes An Authentic Employee Profile?</h1>
                 <p>I'm totally unconvinced that two people can find a person they haven't known previously...</p>
                 <button>read story</button>
             </div>
 
-            <div class="p-6 shadow bg-white rounded">
+            <div >
             <img src="web assets/Photo 2.png" alt="">
                 <p>15 Nov 2022, by Sofia Kent</p>
                 <h2>Why Does It Matter to be Authentic Employee?</h2>
@@ -204,7 +221,7 @@
                 <button>read story</button>
             </div>
 
-            <div class="p-6 shadow bg-white rounded">
+            <div>
             <img src="web assets/Photo 3.png" alt="">
             <p>23 Sep 2022,  by Jason Bone</p>
 
@@ -228,7 +245,7 @@
     <!-- end section  -->
 
     <!-- footer section  -->
-    <footer class="bg-gray-900 text-white py-10 text-center">
+    <footer >
         <img src="web assets/logo.png" alt="">
         <img src="web assets/Icon.png" alt="">
         <img src="web assets/Icon2.png" alt="">

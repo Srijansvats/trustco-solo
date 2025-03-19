@@ -1,0 +1,236 @@
+/* Global Styles */
+:root {
+    --primary-color:  #043A53;
+    ;
+    --secondary-color: #f3f4f6;
+    --accent-color:  #12141D;
+    ;
+    --text-color: #374151;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: white;
+    /* padding: 0 64px; */
+  }
+
+  img {
+    max-width: 100%; /* Makes images responsive */
+    height: auto;
+    display: block;
+  }
+  
+  button {
+    cursor: pointer; /* Show pointer cursor on buttons */
+    font-family: inherit; /* Ensure buttons inherit font */
+  }
+  
+  input, button, textarea, select {
+    font: inherit; /* Consistent typography for form elements */
+  }
+  
+  /* Remove outline on buttons/links but keep focus visible */
+  a, button {
+    outline: none;
+  }
+  
+  a:focus, button:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+  }
+  
+  /* Consistent spacing below sections */
+  section {
+    margin-bottom: 60px;
+  }
+  
+  
+  /* Typography */
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--accent-color);
+    line-height: 1.3;
+  }
+  
+  h1 {
+    font-size: 64px;
+  }
+  
+  h2 {
+    font-size: 3rem;
+  }
+  
+  h3 {
+    font-size: 2rem;
+  }
+  h4 {
+    font-size: 16px;
+    font-weight: 500;
+
+  }
+  p {
+    font-size: 20px;
+    margin: 12px 0;
+  }
+  
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 700;
+
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    font-weight: 800;
+
+  }
+  
+  /* Hero */
+.hero {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  padding: 100px 120px 100px 120px;
+  gap:10px;
+  background: var(--secondary-color);
+}
+
+.hero-buttons {
+  margin-top: 24px;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+
+.primary-btn {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  background: var(--primary-color);
+  width: 141px;
+  height: 60px;
+  color: white;
+  padding: 12px 24px;
+  margin-right: 12px;
+  border: none;
+  border-radius: 55px;
+}
+
+.secondary-btn {
+ 
+  width: 236.18px;
+  height: 67.18px;
+    background: var( --secondary-color);
+  color: var(--text-color);
+  padding: 16px 24px 16px 24px;
+  gap: 16px;
+  border: 1px solid var(--secondary-color);
+  /* border-radius: 4px; */
+}
+.trusted-by {
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+Width: 1,440px;
+height:132px;
+  text-align: center;
+  padding: 50px 150px 50px 150px;
+  gap: 64px;
+}
+
+.brands {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 809.6065063476562;
+height: 32px;
+gap: 64px;
+
+}
+/* header section  */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f5f7f8;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo img {
+  width: 158.6px;
+height: 24px;
+}
+
+.logo span {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #0a3d62;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #4a4a4a;
+  font-size: 0.95rem;
+}
+
+.nav-links a:first-child {
+  color: #0a3d62;
+  font-weight: 500;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.login-btn {
+  background-color: #fff;
+  color: #4a4a4a;
+  border: none;
+  width: 92px;
+height: 50px;
+padding-top: 8px;
+padding-right: 16px;
+padding-bottom: 8px;
+padding-left: 16px;
+gap: 10px;
+border-radius: 42px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.signup-btn {
+  background-color: #0a3d62;
+  color: #fff;
+  border: none;
+  width: 92px;
+height: 50px;
+padding-top: 8px;
+padding-right: 16px;
+padding-bottom: 8px;
+padding-left: 16px;
+gap: 10px;
+border-radius: 42px;
+  cursor: pointer;
+  font-weight: 500;
+}
