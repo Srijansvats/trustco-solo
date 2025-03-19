@@ -234,3 +234,56 @@ border-radius: 42px;
   cursor: pointer;
   font-weight: 500;
 }
+
+
+/* video section  */
+
+
+.video-section {
+background:#043A53;
+justify-content:  center;
+  width: 100%;
+  padding: 40px 20px;
+  text-align: left;
+  gap: 64px;
+margin: 0;
+}
+
+.heading  {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.4;
+  width: 500px;
+}
+.heading span {
+  color: #f4b63d; /* Matches yellow/orange color */
+}
+
+.description {
+  width: 600px;
+  margin: 20px auto 40px;
+  font-size: 1rem;
+  color: #d1d1d1;
+}
+
+.image-container  {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-radius: 12px;
+}
+.image-container img {
+  border-radius: 12px;
+}
+.flexbox{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
