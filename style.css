@@ -272,9 +272,7 @@ margin: 0;
   width: 100%;
   border-radius: 12px;
 }
-.image-container img {
-  border-radius: 12px;
-}
+
 .flexbox{
   display: flex;
   flex-direction: row;
@@ -286,4 +284,130 @@ margin: 0;
   margin-left: auto;
   margin-right: auto;
 
+}
+/* benifits section  */
+.beneficial-section {
+  display: flex;
+  align-items: flex-start;
+  padding: 4rem 8rem;
+  gap: 3rem;
+}
+
+/* Left Side Content */
+.beneficial-left {
+  max-width: 350px;
+}
+
+.badge {
+  background-color: #003840;
+  color: #fff;
+  padding: 4px 24px 4px 24px;
+  border-radius: 100px;
+  font-size: 18px;
+  display: inline-block;
+  gap: 10px;
+}
+
+.section-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 1.2rem;
+}
+
+.section-description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Cards Container */
+.beneficial-cards {
+  display: flex;
+  gap: 1.5rem;
+  flex: 1;
+}
+
+/* Individual Card */
+.card {
+  background-color: #f8fbfc;
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.card-image {
+  width: 90px;
+  height: 100px;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Tablet - Below 1024px */
+@media (max-width: 1024px) {
+  .beneficial-section {
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+
+  .beneficial-left {
+    max-width: 100%;
+  }
+
+  .beneficial-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .card {
+    flex: 1 1 45%;
+    max-width: 45%;
+    text-align: left;
+  }
+}
+
+/* Mobile - Below 768px */
+@media (max-width: 768px) {
+  .beneficial-section {
+    padding: 2rem 1rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .beneficial-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    max-width: 90%;
+    flex: none;
+    text-align: center;
+    align-items: center;
+  }
+
+  .card-text {
+    text-align: center;
+  }
 }
